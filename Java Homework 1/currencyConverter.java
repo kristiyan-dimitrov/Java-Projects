@@ -1,8 +1,3 @@
-// NOTES:
-// - Look at Sample2 java on how you cn define your own internal functions that can then be called from main functions
-// 	- more specifically, this will probably be 2 functions, one for yen and one for usd that are called from within main
-
-
 import java.io.IOException; // This makes error messages more verbose
 import java.util.Scanner; // Need to import this in order to create a Scanner object and receive input into Java
 import java.util.InputMismatchException;
