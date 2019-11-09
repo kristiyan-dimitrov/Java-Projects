@@ -1,4 +1,5 @@
-import java.io.IOException; // This makes error messages more verbose
+package problem1;
+
 import java.util.Scanner; // Need to import this in order to create a Scanner object and receive input into Java
 import java.util.InputMismatchException;
 
@@ -12,10 +13,10 @@ public class currencyConverter {
 	// to read-in user input
 	static Scanner inp = new Scanner(System.in);
 
-	public static void main(String[] args) /*throws IOException */ {	
+	public static void main(String[] args){	
 		
 		float convertedAmount;
-		int choice;
+		int choice = 0;
 		int quit = 0;
 		
 		do 
@@ -31,61 +32,45 @@ public class currencyConverter {
 			System.out.println("4. Quit application");
 			System.out.println(" ");
 
-			// Get the choice of the user
-			choice = inp.nextInt();
-
-			System.out.println(" ");
-			System.out.println("Your choice is: " + choice);
-			System.out.println(" ");
-
-			if (choice != 1 && choice != 2 && choice != 3 && choice != 4 ){
+			try {
+				choice = inp.nextInt();
+				if (choice != 1 && choice != 2 && choice != 3 && choice != 4 ){
+				System.out.println("----------------------");
 				System.out.println("ERROR! You entered an invalid command");
 				System.out.println("Please enter a single number 1, 2, 3, or 4");
+				}
+				System.out.println(" ");
+				System.out.println("Your choice is: " + choice);
+				System.out.println(" ");	
+			} catch(InputMismatchException ex) {
+				inp.next();
+				System.out.println("----------------------");
+				System.out.println("ERROR! You entered an invalid command");
+				System.out.println("Please enter a single number 1, 2, 3, or 4");
+				// choice = inp.nextInt();	
 			}
+
 			// Execute different methods based on the user's choice
 			if(choice == 1){
-				try {
 				System.out.println("Input New Exchange Rate (# of yen for 1 dollar):");
 				rate = changeExchangeRate();
-				} catch (Exception e){
-					System.out.println("ERROR! You probably entered an invalid rate");
-					System.out.println("Please input a proper float rate value");
-					// try {
-					// rate = changeExchangeRate();
-					// } catch (Exception e2){
-					// 	System.out.println("You entered an invalid value again");
-					// 	System.out.println("Returning you to main menu");
-					// }
-				}
 			}
 
 			if(choice == 2){
-				try {
 					System.out.println("Enter the amount of yen you want to convert:");
 					convertedAmount = convertYen();
 					System.out.println(" ");
 					System.out.println("----------------------");
 					System.out.println("The number of yen you entered is equivalent to " + convertedAmount + " usd");	
-				} catch (Exception e){
-					System.out.println("ERROR! You probably entered an invalid amount");
-					System.out.println("Please input a proper float amount value");
-					
-				}
-				
 			}
 
 			if(choice == 3){
-				try {
 					System.out.println("Enter the amount of usd you want to convert:");
 					convertedAmount = convertUsd();
 					System.out.println(" ");
 					System.out.println("----------------------");
 					System.out.println("The number of usd you entered is equivalent to " + convertedAmount + " yen");
-					} catch (Exception e){
-						System.out.println("ERROR! You probably entered an invalid amount");
-						System.out.println("Please input a proper float amount value");
-					}
-				}
+			}
 
 			if(choice == 4){
 				quit = 1;
@@ -95,23 +80,55 @@ public class currencyConverter {
 		while (quit != 1 );
 	}
 	
-
+	// Function for choice #1
 	private static float changeExchangeRate(){
-		float newRate = inp.nextFloat();
-		return newRate;
+	
+		float newRate;
+
+		if (inp.hasNextFloat()){
+			newRate = inp.nextFloat();
+			return newRate;
+		} else {
+			System.out.println("ERROR! You probably entered an invalid rate");
+			System.out.println("Please input a proper float rate value");
+			inp.next(); // This forces the scanner to forget the wrong input of the user
+			newRate = changeExchangeRate(); //Trying this recursively
+			return newRate;
+		}	
 	}	
 
+	// Function for choice #2
 	private static float convertYen(){
-		float amount = inp.nextFloat();
-		float converted = amount/rate;
-		return converted;
+		
+		float converted;
+
+		if (inp.hasNextFloat()){
+			float amount = inp.nextFloat();
+			converted = amount/rate;
+			return converted;
+		} else {
+			System.out.println("ERROR! You probably entered an invalid amount");
+			System.out.println("Please input a proper float amount value");
+			inp.next();
+			converted = convertYen();
+			return converted;
+		}
 	}
 
+	// Function for choice #3
 	private static float convertUsd(){
-		float amount = inp.nextFloat();
-		float converted = amount*rate;
-		return converted;
+		
+		float converted;
+		if (inp.hasNextFloat()){
+			float amount = inp.nextFloat();
+			converted = amount*rate;
+			return converted;
+		} else {
+			System.out.println("ERROR! You probably entered an invalid amount");
+			System.out.println("Please input a proper float amount value");
+			inp.next();
+			converted = convertUsd();
+			return converted;
+		}
 	}
 }
-
-// -----------------
