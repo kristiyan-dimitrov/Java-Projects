@@ -1,0 +1,400 @@
+0:Alishia, Tonette, Donte
+
+1:Cory
+
+EMPTY LINE...
+
+3:Carmela
+
+4:Valentin
+
+5:Josephine, Marjory, Delmy, Tawna, Twana, Pamella, Arminda
+
+6:Elvera
+
+EMPTY LINE...
+
+8:Malinda
+
+9:Cecily, Dominque
+
+10:Valentine
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+13:Laticia
+
+EMPTY LINE...
+
+15:Natalie, Marti
+
+16:Tyra, Edna, Devora
+
+EMPTY LINE...
+
+18:Stephaine
+
+19:Lavera, Herman
+
+20:Kiley, Kanisha, Dierdre, Melodie
+
+21:Shawna
+
+22:Timothy, Bok
+
+23:Jolanda
+
+24:Lucina
+
+25:Lai
+
+26:Yuki, Oretha
+
+27:Ozell
+
+EMPTY LINE...
+
+29:Abel, Vallie, Theola, Claribel
+
+EMPTY LINE...
+
+31:Mattie, Gladys, Lemuel, Felicidad
+
+32:Graciela, Cyndy
+
+EMPTY LINE...
+
+34:Fernanda
+
+EMPTY LINE...
+
+36:Laurel, Howard, Lezlie, Jettie
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+40:Shenika, Tammara
+
+41:Benton
+
+EMPTY LINE...
+
+43:Rory
+
+EMPTY LINE...
+
+45:Brandon, Latrice
+
+46:Simona, Lettie, Cheryl, Nana
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+50:Celeste, Rolande
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+55:Carissa
+
+56:Sage, Joesph
+
+57:Rosio
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+61:Nieves, Chau
+
+62:Glory, Kerry
+
+63:Annabelle
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+66:Jina, Jesusa, Junita
+
+67:Van
+
+EMPTY LINE...
+
+69:Francine
+
+70:Ezekiel, Solange, Devorah
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+76:Roxane, Lorrie, Louisa
+
+77:Art
+
+EMPTY LINE...
+
+79:Marguerita
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+82:Eun
+
+EMPTY LINE...
+
+84:Danica
+
+85:Rolland
+
+86:Penney
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+90:Carma
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+93:Ty
+
+94:Chantell
+
+95:Jamal, Scarlet, Melissa, Larae
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+99:Blondell, Georgene
+
+100:Willard, Andra, Belen
+
+101:Kati, Clay, Irma
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+104:Fletcher, Bernardo
+
+105:Amber
+
+106:Karl
+
+107:Sue
+
+108:Gearldine
+
+109:Sheridan
+
+110:Maurine, Arlette, Beatriz, Novella
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+113:Carmelina
+
+EMPTY LINE...
+
+115:Ammie, Sabra
+
+116:Dyan, Elza
+
+EMPTY LINE...
+
+118:Candida
+
+119:Albina, Gregoria, Gracia
+
+120:Donette, Blair, Kimbery, Daren
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+124:Jennifer
+
+125:Talia, Barrett
+
+126:Mitsue, Merlyn
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+130:Bulah, Hillary
+
+131:Sylvia
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+135:Maryann, Ilene, Audra, Yolando, Carin, Karan
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+139:Chanel, Alease
+
+140:Lenna, Erick, Stephen, Becky
+
+141:Jose, Dorthy
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+145:Lindsey
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+149:Nelida
+
+150:James, Rozella, Emerson, Tiffiny
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+155:Brock, Wilda, Lisha
+
+156:Teri
+
+EMPTY LINE...
+
+158:Deeanna, Micaela
+
+159:Leatha
+
+EMPTY LINE...
+
+161:Willow
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+165:Minna, Ernie, Layla
+
+166:Elly, Viva
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+169:Allene, Fannie
+
+170:Bette
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+174:Alisha, Fatima, Kallie, Delisa
+
+175:Leota, Tamar, Reita
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+179:Bobbye, Estrella
+
+180:Thurman
+
+181:Kris, Moon, Myra
+
+EMPTY LINE...
+
+183:Meaghan
+
+184:Youlanda, Johnetta
+
+185:Cammy, Merilyn
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+190:Lizette
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+EMPTY LINE...
+
+194:Veronika
+
+EMPTY LINE...
+
+196:Xuan
+
+197:Evangelina
+
+198:Angella
+
+199:Arlene
+
